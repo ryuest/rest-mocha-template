@@ -2,10 +2,10 @@ module.exports = {
     "mysql": {
         connectionLimit: 100,
         host: 'localhost',
-        user: 'root',
+        user: 'newuser',
         password: '',
-        database: 'restful_api_demo',
-        debug: false
+        database: 'one',
+        debug: true
     },
     "port": 3000
 }

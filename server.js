@@ -4,7 +4,7 @@ var app = express();
 app.use(bodyParser.urlencoded());
 app.use(bodyParser.json());
 var router = express.Router();
-const rest = require("./routes.js/index.js");
+const rest = require("./routes");
 const config = require('./config');
 
 router.get('/', function (req, res) {
